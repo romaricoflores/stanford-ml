@@ -38,7 +38,7 @@ grad = (1 / m) * X' * (h - y);
 reg_grad = (lambda / m) * [0; theta(2:end)];
 
 % Add regularization term to the gradient
-% grad = grad + reg_grad;
+grad = grad + reg_grad;
 
 % =========================================================================
 
